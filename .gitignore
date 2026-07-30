@@ -1,0 +1,18 @@
+# Local .terraform directories (provider plugins, module cache)
+**/.terraform/*
+
+# Terraform state files (can contain sensitive resource data)
+*.tfstate
+*.tfstate.*
+
+# Variable files (often contain environment-specific/sensitive values)
+*.tfvars
+*.tfvars.json
+
+# Crash logs
+crash.log
+crash.*.log
+
+# CLI config
+.terraformrc
+terraform.rc
